@@ -1,0 +1,104 @@
+.container{
+    padding: 1rem;
+    margin: 5rem 1rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__image {
+    max-width: 100%;
+    border-radius: 30px;
+    height: auto;
+}
+
+.form__left {
+    display: none;
+}
+
+.form__title {
+    text-align: center;
+    color: #4361ee;
+    font-size: 2.44rem;
+    margin-bottom: 1rem;
+}
+
+.form__group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.form__label{
+    margin-bottom: 0.5rem;
+}
+.form__labelposter{
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+    margin-bottom: 0.5rem;
+}
+
+.form__labelgenre{
+    margin-bottom: 0.5rem;
+}
+
+.form__genre {
+    outline: none;
+    padding: 0.5rem 0.5rem;
+    border-radius: 8px;
+    border: 0.5px solid #64748b;
+}
+
+.form__button {
+    padding: 0.8rem 2rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #4361ee;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.form__input {
+    outline: none;
+    padding: 1rem 0.5rem;
+    border-radius: 8px;
+    border: 0.5px solid #64748b;
+}
+
+.form__input:focus {
+    border: 1px solid #4361ee
+}
+
+.form__alert {
+    color: red;
+}
+
+
+
+/* Large Screen */
+@media(min-width: 992px) {
+    .container{
+        text-align: left;
+        max-width: 1200px;
+        margin: 5rem auto;
+    }
+    .form {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .form__left {
+        display: block;
+        flex-basis:60%;
+    }
+
+    .form__right {
+        flex-basis: 40%;
+    }
+}
