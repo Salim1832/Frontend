@@ -1,15 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
+import App from './App';
 import './index.css';
-import App from './pages/Home';
+
 
 
 ReactDOM.render(
   <React.StrictMode>
     {/* Bungkus App dengan BrowserRouter */}
     <BrowserRouter> 
-      <App />
+      <App/>
     </BrowserRouter>
     
   </React.StrictMode>,
