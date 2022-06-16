@@ -1,0 +1,35 @@
+/* Small screen */
+.container {
+    margin: 1rem;
+    text-align: center;
+}
+
+.movies__title {
+    margin-bottom: 1rem;
+    color: #4361ee;
+}
+
+
+/*Medium Screen */
+@media(min-width: 768px) {
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .movie__container{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+/* Large Screen */
+
+@media(min-width: 992px) {
+    .container{
+        max-width: 1200px;
+        margin: 5rem auto;
+    }
+    
+}
