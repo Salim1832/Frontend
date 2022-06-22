@@ -1,0 +1,14 @@
+.provinsi__tableinfo {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 70%;
+    padding: 0.5rem 3rem;
+}
+
+
+
+@media(min-width: 768px) {
+    .provinsi__tableinfo {
+        flex-basis: 70%;
+    }
+}
